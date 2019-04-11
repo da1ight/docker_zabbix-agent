@@ -1,7 +1,7 @@
 # Instal additional packages for zabbix checks
 # Based on zabbix-agent:latest
 
-FROM zabbix/zabbix-agent:latest
+FROM zabbix/zabbix-agent:alpine-4.0-latest
 MAINTAINER Stanislav Osipov <stanislav.osipov@jetbrains.com>
 
 RUN apk update && \
